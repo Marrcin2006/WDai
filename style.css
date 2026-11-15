@@ -269,3 +269,12 @@ footer  img:hover {
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
     transform: translateY(-2px);
 }
+@media screen and (max-width: 768px) {
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 0;
+    }
+}
