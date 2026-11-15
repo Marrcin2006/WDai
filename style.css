@@ -248,19 +248,24 @@ footer  img:hover {
     border-color: #00ffff;
     background: rgba(0, 0, 0, 0.5);
 }
-.submit-btn {
-    background: linear-gradient(90deg, #008b8b, #00ffff);
-    color: #0f2027;
-    border: none;
-    padding: 15px;
-    border-radius: 8px;
-    font-weight: bold;
+.glass-form button {
+    background: rgba(0, 255, 255, 0.1);
+    border: 2px solid #00ffff;
+    color: #00ffff;
+    padding: 14px 30px;
     font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px; /* prostokąt z delikatnie zaokrąglonymi rogami */
     cursor: pointer;
-    margin-top: 10px;
     transition: 0.3s ease;
+    margin-top: 10px;
 }
-.submit-btn:hover {
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+
+.glass-form button:hover {
+    background: #00ffff;
+    color: #0f2027;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
     transform: translateY(-2px);
 }
